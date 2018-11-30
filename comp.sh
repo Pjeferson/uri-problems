@@ -4,11 +4,12 @@
 
 FOLDER=$(pwd)
 QUESTION="${FOLDER##*/}"
+BINARY="${QUESTION}-bin"
 
-g++ "${QUESTION}.cpp" -o "${QUESTION}"
+g++ "${QUESTION}.cpp" -o $BINARY
 
 if [ $? -ne 1 ]; then
-    echo "Arquivo ${QUESTION} gerado"
+    echo "Arquivo ${BINARY} gerado"
 else
-    echo "Falha na compilação de ${QUESTION}"
+    echo "Falha na compilação de ${BINARY}"
 fi
