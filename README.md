@@ -5,9 +5,9 @@ Managing URI's problem solutions
  - [graph](./code-snippets/graph.md)
 
 # Solutions 
-- [ ] TODO
-- [X] Solved
+- :x: TODO
+- :heavy_check_mark: Solved
 
 ## Problems List
 
-- [X] [1081](https://www.urionlinejudge.com.br/judge/pt/problems/view/1081)
+- :heavy_check_mark: [1081](https://www.urionlinejudge.com.br/judge/pt/problems/view/1081)
