@@ -9,7 +9,7 @@ BINARY="${QUESTION}-bin"
 g++ "${QUESTION}.cpp" -o $BINARY
 
 if [ $? -ne 1 ]; then
-    echo "Arquivo ${BINARY} gerado"
+    echo "File ${BINARY} generated"
 else
-    echo "Falha na compilação de ${BINARY}"
+    echo "Failed to compile ${BINARY}"
 fi
